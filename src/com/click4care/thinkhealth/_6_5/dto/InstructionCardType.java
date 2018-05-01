@@ -1,0 +1,308 @@
+
+package com.click4care.thinkhealth._6_5.dto;
+
+import java.math.BigInteger;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlSchemaType;
+import javax.xml.bind.annotation.XmlType;
+import javax.xml.datatype.XMLGregorianCalendar;
+
+
+/**
+ * <p>Java class for instructionCard_type complex type.
+ * 
+ * <p>The following schema fragment specifies the expected content contained within this class.
+ * 
+ * <pre>
+ * &lt;complexType name="instructionCard_type">
+ *   &lt;complexContent>
+ *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ *       &lt;sequence>
+ *         &lt;element name="attachedFileUniversalId" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="attachmentId" type="{http://www.w3.org/2001/XMLSchema}integer" minOccurs="0"/>
+ *         &lt;element name="createdBy" type="{http://www.w3.org/2001/XMLSchema}integer" minOccurs="0"/>
+ *         &lt;element name="createdDate" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
+ *         &lt;element name="id" type="{http://www.w3.org/2001/XMLSchema}integer" minOccurs="0"/>
+ *         &lt;element name="modifiedBy" type="{http://www.w3.org/2001/XMLSchema}integer" minOccurs="0"/>
+ *         &lt;element name="modifiedDate" type="{http://www.w3.org/2001/XMLSchema}dateTime" minOccurs="0"/>
+ *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="text" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="universalId" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *       &lt;/sequence>
+ *     &lt;/restriction>
+ *   &lt;/complexContent>
+ * &lt;/complexType>
+ * </pre>
+ * 
+ * 
+ */
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "instructionCard_type", propOrder = {
+    "attachedFileUniversalId",
+    "attachmentId",
+    "createdBy",
+    "createdDate",
+    "id",
+    "modifiedBy",
+    "modifiedDate",
+    "name",
+    "text",
+    "universalId"
+})
+public class InstructionCardType {
+
+    protected String attachedFileUniversalId;
+    protected BigInteger attachmentId;
+    protected BigInteger createdBy;
+    @XmlSchemaType(name = "dateTime")
+    protected XMLGregorianCalendar createdDate;
+    protected BigInteger id;
+    protected BigInteger modifiedBy;
+    @XmlSchemaType(name = "dateTime")
+    protected XMLGregorianCalendar modifiedDate;
+    protected String name;
+    protected String text;
+    protected String universalId;
+
+    /**
+     * Gets the value of the attachedFileUniversalId property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getAttachedFileUniversalId() {
+        return attachedFileUniversalId;
+    }
+
+    /**
+     * Sets the value of the attachedFileUniversalId property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setAttachedFileUniversalId(String value) {
+        this.attachedFileUniversalId = value;
+    }
+
+    /**
+     * Gets the value of the attachmentId property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
+     *     
+     */
+    public BigInteger getAttachmentId() {
+        return attachmentId;
+    }
+
+    /**
+     * Sets the value of the attachmentId property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
+     *     
+     */
+    public void setAttachmentId(BigInteger value) {
+        this.attachmentId = value;
+    }
+
+    /**
+     * Gets the value of the createdBy property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
+     *     
+     */
+    public BigInteger getCreatedBy() {
+        return createdBy;
+    }
+
+    /**
+     * Sets the value of the createdBy property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
+     *     
+     */
+    public void setCreatedBy(BigInteger value) {
+        this.createdBy = value;
+    }
+
+    /**
+     * Gets the value of the createdDate property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link XMLGregorianCalendar }
+     *     
+     */
+    public XMLGregorianCalendar getCreatedDate() {
+        return createdDate;
+    }
+
+    /**
+     * Sets the value of the createdDate property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link XMLGregorianCalendar }
+     *     
+     */
+    public void setCreatedDate(XMLGregorianCalendar value) {
+        this.createdDate = value;
+    }
+
+    /**
+     * Gets the value of the id property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
+     *     
+     */
+    public BigInteger getId() {
+        return id;
+    }
+
+    /**
+     * Sets the value of the id property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
+     *     
+     */
+    public void setId(BigInteger value) {
+        this.id = value;
+    }
+
+    /**
+     * Gets the value of the modifiedBy property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link BigInteger }
+     *     
+     */
+    public BigInteger getModifiedBy() {
+        return modifiedBy;
+    }
+
+    /**
+     * Sets the value of the modifiedBy property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link BigInteger }
+     *     
+     */
+    public void setModifiedBy(BigInteger value) {
+        this.modifiedBy = value;
+    }
+
+    /**
+     * Gets the value of the modifiedDate property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link XMLGregorianCalendar }
+     *     
+     */
+    public XMLGregorianCalendar getModifiedDate() {
+        return modifiedDate;
+    }
+
+    /**
+     * Sets the value of the modifiedDate property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link XMLGregorianCalendar }
+     *     
+     */
+    public void setModifiedDate(XMLGregorianCalendar value) {
+        this.modifiedDate = value;
+    }
+
+    /**
+     * Gets the value of the name property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * Sets the value of the name property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setName(String value) {
+        this.name = value;
+    }
+
+    /**
+     * Gets the value of the text property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getText() {
+        return text;
+    }
+
+    /**
+     * Sets the value of the text property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setText(String value) {
+        this.text = value;
+    }
+
+    /**
+     * Gets the value of the universalId property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getUniversalId() {
+        return universalId;
+    }
+
+    /**
+     * Sets the value of the universalId property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setUniversalId(String value) {
+        this.universalId = value;
+    }
+
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/home/pete/.m2/repository/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar"/>
+	<classpathentry kind="lib" path="/home/pete/Downloads/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="/home/pete/IUcca/libs/javax.persistence-2.1.0-rc1.jar"/>
+	<classpathentry kind="lib" path="/home/pete/IUcca/libs/hibernate-core-5.2.16.Final.jar"/>
+	<classpathentry kind="lib" path="/home/pete/IUcca/libs/opencsv-4.1.jar"/>
+	<classpathentry kind="lib" path="/home/pete/IUcca/libs/com.sun.rowset.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
