@@ -19,6 +19,7 @@ public class MainApp {
 		
 		System.out.println("alpha");
 		String csv="";
+		String pete = "thisisatest";
 		
 		/*
 		
